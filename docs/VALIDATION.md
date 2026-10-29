@@ -38,6 +38,8 @@ Graphviz/TikZ execution, clean package installation, or remote CI run is claimed
 The optional backends are documented guidance. Supported version ranges beyond the
 pinned environment have not been exhaustively tested.
 
-The local repository is committed and clean on `main`, with no remote configured.
-Publication remains a separate action. CI is provided for future pushes, but has
-not run remotely.
+The initial local build was committed on `main`. The configured publication
+destination is `https://github.com/rob-p/technical-figure-skills`; its initial
+commit and BSD repository license are preserved, while the skill subtree retains
+its MIT license and upstream attribution. CI configuration is included; this
+validation record reports local checks and makes no claim about remote CI results.

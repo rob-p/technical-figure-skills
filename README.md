@@ -47,7 +47,8 @@ python3 -m venv .venv
 .venv/bin/python tools/package_skill.py
 ```
 
-`dist/skill.zip` is the distributable. `requirements.txt` gives broader supported
+Download the packaged skill from [`skill.zip`](skill.zip), with checksum in
+[`skill.zip.sha256`](skill.zip.sha256). A fresh build writes `dist/skill.zip`. `requirements.txt` gives broader supported
 versions; the lock records the validated export environment. Optional Graphviz
 and TikZ workflows are documented, not implemented exporter switches. The primary
 renderer requires neither TeX nor an image-generation service.
@@ -70,14 +71,17 @@ fonts. Exact byte reproduction is scoped to the same environment.
 
 ## Provenance and publishing
 
-MIT licensed, with upstream copyright and permission notice retained. See
+The repository uses BSD 3-Clause, preserving its initial license. The packaged
+`scientific-diagrams` skill is MIT licensed, with upstream copyright and permission
+notice retained; its own `LICENSE` governs that subtree. See
 [`THIRD_PARTY_NOTICES.md`](skills/scientific-diagrams/THIRD_PARTY_NOTICES.md) and
 [`upstream.json`](skills/scientific-diagrams/upstream.json) for the inspected
 revision, hashes, and adaptation boundaries. No upstream runtime dependency is
 required. New example code is original; private manuscript evidence is summarized
 and fingerprinted, not copied into the repository.
 
-This is a standalone local repository on `main`, ready to attach to a new remote.
-It has no configured remote and has not been published. Review ownership and the
-chosen repository name before publishing; `git remote add origin <your-url>` and
-`git push -u origin main` are normal next steps when publication is authorized.
+The repository remote is
+[rob-p/technical-figure-skills](https://github.com/rob-p/technical-figure-skills),
+with development on `main`. Its initial commit and repository-level BSD license
+are preserved. For updates, regenerate and validate the archive before replacing
+the downloadable `skill.zip` and its checksum.
