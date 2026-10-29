@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Diagrams"
+  short_description: "Polish paper figures with editable vector graphics"
+  default_prompt: "Use $scientific-diagrams to improve this paper figure's aesthetics while preserving its technical content."

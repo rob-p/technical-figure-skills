@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-29",
+  "reviewer": "Codex visual and source review",
+  "methods": [
+    "Original PNG and PDF exports",
+    "Independent SVG rasterization with Sharp/librsvg at 144 dpi",
+    "Poppler PDF rasterization",
+    "Grayscale print-scale previews",
+    "Enlarged text/connector inspection",
+    "PDF font embedding and extractable-text inspection"
+  ],
+  "findings_fixed": [
+    "Internal arrows hidden behind group fills: corrected connector/surface/glyph layering",
+    "Index dependency crossing a panel heading: continuous rounded route around heading",
+    "Overflow connector crossing its output list: routed through clear space",
+    "Footer-label overlap: enlarged canvas spacing",
+    "SVG lost bold hierarchy despite correct PDF/PNG: explicit font-weight added and regression-tested"
+  ],
+  "outcome": "No remaining clipping, text collision, broken branch, or unintended connector crossing identified in the reviewed examples. SVG/PDF hierarchy consistent after font-weight fix.",
+  "limitations": [
+    "Aesthetic judgments are qualitative, not guaranteed optimal.",
+    "Expanded style demonstrators simplify some source content; not content-identical polish revisions.",
+    "Not inserted into or validated within the manuscript.",
+    "Live SVG fonts need compatible installed faces; PDF embeds subsets.",
+    "No independent-agent evaluation or Rust source re-audit."
+  ],
+  "figures": {
+    "workflow": {
+      "export_sha256": {
+        "svg": "133a6df667ee8608060946a8822a7eb47b9aabf7f99e36254cba772812f96b9a",
+        "pdf": "af4dd232cdedd3d74585ce85adabdf0ac987653151ab135c9c0df30f8c0c1c81",
+        "png": "3ece030ee63f861ebe87c710976d7501972f283fba688332fdd1b6d3ec65aa6f"
+      },
+      "dimensions_pt": [
+        504,
+        444
+      ],
+      "min_font_pt": 7.2,
+      "grayscale_reviewed": true,
+      "svg_pdf_reviewed": true
+    },
+    "tiny-dict": {
+      "export_sha256": {
+        "svg": "eddaad67b83eac0a2f7298bf0bd400d580c7aa20628c36eb899a83aee9e09afd",
+        "pdf": "4d2c2d8a5c6c2cea0fa6bfd37bf165e06f096a9e8bcb952efb8f2af17983514f",
+        "png": "500b44b959764093a708d8cc7b553573bb8ae077f4e477f8b4495133751ddad8"
+      },
+      "dimensions_pt": [
+        504,
+        545
+      ],
+      "min_font_pt": 7.4,
+      "grayscale_reviewed": true,
+      "svg_pdf_reviewed": true
+    },
+    "rad-hierarchy": {
+      "export_sha256": {
+        "svg": "e88bd47d84f2f434dbe73ae60b6f6f25825d306bb34300a2949d8e529d3d974b",
+        "pdf": "9b6cd4c5d5381a02da4c183150e668bb4c4dd84b32f86d40a4ed540d0485821e",
+        "png": "9597a1b7dea6996d9895da53b97717fddb372fefaa792740dee91e3c0f4c527e"
+      },
+      "dimensions_pt": [
+        504,
+        304
+      ],
+      "min_font_pt": 7.5,
+      "grayscale_reviewed": true,
+      "svg_pdf_reviewed": true
+    }
+  }
+}

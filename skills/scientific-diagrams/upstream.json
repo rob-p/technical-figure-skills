@@ -1,0 +1,113 @@
+{
+  "inspected_date": "2026-10-29",
+  "upstream": {
+    "repository": "https://github.com/JimLiu/baoyu-skills",
+    "revision": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+    "license": "MIT",
+    "skill_version": "1.117.4",
+    "files": {
+      "LICENSE": "601839401f6ce68b7a8aec0f7ba247ab8ef0848113378220bec4b2615cc84ee7",
+      "skills/baoyu-article-illustrator/SKILL.md": "ce1c7bfe9b93e5afac1dbeac95a03f8abf8c102aeecc34a33d8f13dc10e64acd",
+      "skills/baoyu-article-illustrator/references/workflow.md": "5e63d47a1dea9e8393b97cb0f5f19e55f57d82ccd785dfacafbb2c5bb5c69f2d",
+      "skills/baoyu-article-illustrator/references/prompt-construction.md": "4507d26d49ea875cf0d909f17f7575ae0edef7a759a393f149b0ac497f6233f3",
+      "skills/baoyu-article-illustrator/references/config/preferences-schema.md": "69bcf6061743f96e7cdc971450836a126e469dda2771b901319345330d0851c9",
+      "skills/baoyu-article-illustrator/references/styles/scientific.md": "0d360a3ab10df6d6dd47c9cee76fa18e3a57fd805d52df84e0b7e24ce315befa",
+      "skills/baoyu-article-illustrator/references/styles/blueprint.md": "4836bdd8c4fcb17694b3010fd21c091e0b2234dca2aafe0ac5fd046d5fb24f67",
+      "skills/baoyu-article-illustrator/prompts/system.md": "2683c79386d20f2c26e720a4702773be4b1fabd97519b1e48e74bca6b53e3d3e"
+    }
+  },
+  "case_study": {
+    "name": "RECOMB2027",
+    "source_state": "working-tree content, including uncommitted revisions",
+    "head_revision": "7af231ea8471fdf7e4b888af360c99c81a35da5b",
+    "files": {
+      "MANUSCRIPT_REFINEMENTS.md": "435d62cdc20d515a9e238fd1c471fce0024595de88b21b7e070f13b3db9cec50",
+      "main.typ": "3b2c6de033fc733216d840b01625ab570802e51c41f6932c1c8c3241864e9a2a",
+      "template.typ": "0e4e0b680f99b8c92196b8716d55a686e5a151c0845675fd8ab58e245d707a9e",
+      "figures/methods/draw_figures.py": "736f4bcf532006d750eae2accd6d1912eb624e3ef7ec4c18c3100e83bc74ebc2",
+      "figures/methods/HANDOFF.txt": "5fb33c491a4eb22d8c75ffd91045659c8837fff6ad7ba4cccad941f679a7c5f3",
+      "figures/methods/validation.json": "3c0b48693458ab06721947576823ef28a0ff8c3c4cde1e8ce6ee018c7262b1a1",
+      "figures/methods/provenance/sources.json": "99218dfd8f72b195644562c9e9e896e5ecccef572939bdf5ec01482dae278207"
+    },
+    "implementation_evidence": [
+      {
+        "repository": "sshash-rs",
+        "revision": "953dea2",
+        "file": "crates/tiny-dict/src/lib.rs",
+        "sha256": "81eacc2c48316ce4e6ceecd9292841c7a2400c35c80f0a7b5c98f98eb9b460b2",
+        "url": "https://github.com/COMBINE-lab/sshash-rs/blob/953dea2/crates/tiny-dict/src/lib.rs"
+      },
+      {
+        "repository": "sshash-rs",
+        "revision": "953dea2",
+        "file": "crates/tiny-dict/src/prefilter.rs",
+        "sha256": "a1ee38d3fcd2e388e2e331c83a3ccd831762dc8ada1b7cb7ecef99dc6608bccb",
+        "url": "https://github.com/COMBINE-lab/sshash-rs/blob/953dea2/crates/tiny-dict/src/prefilter.rs"
+      },
+      {
+        "repository": "piscem-rs",
+        "revision": "7cced2e",
+        "file": "src/index/contig_table.rs",
+        "sha256": "a135ec254350d9fe226d6acb9c330ad5af467795b61e166d2316b1d14c23f1e7",
+        "url": "https://github.com/COMBINE-lab/piscem-rs/blob/7cced2e/src/index/contig_table.rs"
+      },
+      {
+        "repository": "piscem-rs",
+        "revision": "7cced2e",
+        "file": "src/io/rad.rs",
+        "sha256": "bde0f3467f6485226c910640de8ee342fad0b99a4d5e562cea97fffcefd746ab",
+        "url": "https://github.com/COMBINE-lab/piscem-rs/blob/7cced2e/src/io/rad.rs"
+      },
+      {
+        "repository": "libradicl",
+        "revision": "7676596",
+        "file": "libradicl/src/record.rs",
+        "sha256": "4f3db2239e79efc7515ba8b175ff3849ef545d58d81994d829d489c5d78cb116",
+        "url": "https://github.com/COMBINE-lab/libradicl/blob/7676596/libradicl/src/record.rs"
+      },
+      {
+        "repository": "libradicl",
+        "revision": "7676596",
+        "file": "libradicl/src/multi_collation.rs",
+        "sha256": "fb010d354a206f07d9f2fc1dd78ac4f0e1bf613eaaa9eee0737a5874d9e28285",
+        "url": "https://github.com/COMBINE-lab/libradicl/blob/7676596/libradicl/src/multi_collation.rs"
+      },
+      {
+        "repository": "libradicl",
+        "revision": "7676596",
+        "file": "website/src/content/docs/versioning/tag-roles.mdx",
+        "sha256": "dea17b105fc95a320e9afe998d73f0d776d8164c1bcf099e1dceabfb4d6d6f0e",
+        "url": "https://github.com/COMBINE-lab/libradicl/blob/7676596/website/src/content/docs/versioning/tag-roles.mdx"
+      },
+      {
+        "repository": "libradicl",
+        "revision": "7676596",
+        "file": "website/src/content/docs/format/chunks-and-records.mdx",
+        "sha256": "9a2e57cb4a84e04af7c7e3bbd0459ad6e801ad3969183770afd7e426509249a5",
+        "url": "https://github.com/COMBINE-lab/libradicl/blob/7676596/website/src/content/docs/format/chunks-and-records.mdx"
+      },
+      {
+        "repository": "alevin-fry",
+        "revision": "1117219",
+        "file": "src/cellfilter.rs",
+        "sha256": "4c1d244ea10641abc4ce638cdeaf41119f2736d761b6f3adcd03d314c5e0a115",
+        "url": "https://github.com/COMBINE-lab/alevin-fry/blob/1117219/src/cellfilter.rs"
+      },
+      {
+        "repository": "alevin-fry",
+        "revision": "1117219",
+        "file": "src/barcode_correction.rs",
+        "sha256": "0863b676d601607d1da2b78565dcf6ada0a2a902deb2d73620adb60046e9ff42",
+        "url": "https://github.com/COMBINE-lab/alevin-fry/blob/1117219/src/barcode_correction.rs"
+      },
+      {
+        "repository": "alevin-fry",
+        "revision": "1117219",
+        "file": "src/correction_plan.rs",
+        "sha256": "7725876d97bc0668e77f30b09f8874619afee02a4ab939c2df783ede45b58122",
+        "url": "https://github.com/COMBINE-lab/alevin-fry/blob/1117219/src/correction_plan.rs"
+      }
+    ],
+    "limits": "Local manuscript/log evidence inspected; upstream Rust implementations not independently re-audited. No benchmark run."
+  }
+}

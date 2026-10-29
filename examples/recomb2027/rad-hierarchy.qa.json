@@ -1,0 +1,587 @@
+{
+  "canvas_pt": [
+    504,
+    304
+  ],
+  "min_font_pt": 7.5,
+  "violations": [],
+  "text_overlaps": [],
+  "labels": [
+    {
+      "text": "a",
+      "pt": 9.0,
+      "bbox": [
+        19.0,
+        13.925000000000011,
+        25.0,
+        26.07499999999999
+      ]
+    },
+    {
+      "text": "Declare roles once in the RAD v2 prelude",
+      "pt": 10.5,
+      "bbox": [
+        38.0,
+        12.912500000000023,
+        277.5,
+        27.087499999999977
+      ]
+    },
+    {
+      "text": "tag",
+      "pt": 8.0,
+      "bbox": [
+        32.0,
+        44.60000000000002,
+        47.0,
+        55.400000000000006
+      ]
+    },
+    {
+      "text": "type",
+      "pt": 8.0,
+      "bbox": [
+        96.0,
+        44.60000000000002,
+        116.0,
+        55.400000000000006
+      ]
+    },
+    {
+      "text": "role payload",
+      "pt": 8.0,
+      "bbox": [
+        227.87109375,
+        44.60000000000002,
+        283.12890625,
+        55.400000000000006
+      ]
+    },
+    {
+      "text": "b0",
+      "pt": 8.0,
+      "bbox": [
+        34.5,
+        64.6,
+        44.5,
+        75.4
+      ]
+    },
+    {
+      "text": "u32/u64",
+      "pt": 8.0,
+      "bbox": [
+        88.5,
+        64.6,
+        123.5,
+        75.4
+      ]
+    },
+    {
+      "text": "Barcode(level 0, Ls)",
+      "pt": 8.0,
+      "bbox": [
+        205.5,
+        64.6,
+        305.5,
+        75.4
+      ]
+    },
+    {
+      "text": "b1",
+      "pt": 8.0,
+      "bbox": [
+        34.5,
+        84.6,
+        44.5,
+        95.4
+      ]
+    },
+    {
+      "text": "u32/u64",
+      "pt": 8.0,
+      "bbox": [
+        88.5,
+        84.6,
+        123.5,
+        95.4
+      ]
+    },
+    {
+      "text": "Barcode(level 1, Lc)",
+      "pt": 8.0,
+      "bbox": [
+        205.5,
+        84.6,
+        305.5,
+        95.4
+      ]
+    },
+    {
+      "text": "u",
+      "pt": 8.0,
+      "bbox": [
+        37.0,
+        104.6,
+        42.0,
+        115.4
+      ]
+    },
+    {
+      "text": "u32/u64",
+      "pt": 8.0,
+      "bbox": [
+        88.5,
+        104.6,
+        123.5,
+        115.4
+      ]
+    },
+    {
+      "text": "Umi(Lu)",
+      "pt": 8.0,
+      "bbox": [
+        238.0,
+        104.6,
+        273.0,
+        115.4
+      ]
+    },
+    {
+      "text": "Level 0: sample",
+      "pt": 8.5,
+      "bbox": [
+        381.0,
+        54.26249999999999,
+        457.0,
+        65.73750000000001
+      ]
+    },
+    {
+      "text": "Level 1: cell",
+      "pt": 8.5,
+      "bbox": [
+        381.0,
+        79.26249999999999,
+        439.5,
+        90.73750000000001
+      ]
+    },
+    {
+      "text": "Role suffix: code:u8 | payload length:u8 | payload bytes. Ls, Lc, Lu: nucleotide lengths.",
+      "pt": 7.5,
+      "bbox": [
+        14.0,
+        128.9375,
+        344.53125,
+        139.0625
+      ]
+    },
+    {
+      "text": "b",
+      "pt": 9.0,
+      "bbox": [
+        18.75,
+        154.925,
+        25.25,
+        167.075
+      ]
+    },
+    {
+      "text": "Carry values; correct and group by sample + cell",
+      "pt": 10.5,
+      "bbox": [
+        38.0,
+        153.9125,
+        323.5,
+        168.0875
+      ]
+    },
+    {
+      "text": "n align",
+      "pt": 7.5,
+      "bbox": [
+        19.5,
+        192.4375,
+        48.5,
+        202.5625
+      ]
+    },
+    {
+      "text": "S",
+      "pt": 7.5,
+      "bbox": [
+        63.75,
+        192.4375,
+        69.25,
+        202.5625
+      ]
+    },
+    {
+      "text": "C",
+      "pt": 7.5,
+      "bbox": [
+        88.75,
+        192.4375,
+        94.25,
+        202.5625
+      ]
+    },
+    {
+      "text": "U",
+      "pt": 7.5,
+      "bbox": [
+        115.0,
+        192.4375,
+        121.0,
+        202.5625
+      ]
+    },
+    {
+      "text": "assignments",
+      "pt": 7.5,
+      "bbox": [
+        142.5,
+        192.4375,
+        196.5,
+        202.5625
+      ]
+    },
+    {
+      "text": "1",
+      "pt": 7.5,
+      "bbox": [
+        31.75,
+        213.4375,
+        36.25,
+        223.5625
+      ]
+    },
+    {
+      "text": "A",
+      "pt": 7.5,
+      "bbox": [
+        64.25,
+        213.4375,
+        68.75,
+        223.5625
+      ]
+    },
+    {
+      "text": "x",
+      "pt": 7.5,
+      "bbox": [
+        89.25,
+        213.4375,
+        93.75,
+        223.5625
+      ]
+    },
+    {
+      "text": "u1",
+      "pt": 7.5,
+      "bbox": [
+        113.5,
+        213.4375,
+        122.5,
+        223.5625
+      ]
+    },
+    {
+      "text": "P1",
+      "pt": 7.5,
+      "bbox": [
+        165.0,
+        213.4375,
+        174.0,
+        223.5625
+      ]
+    },
+    {
+      "text": "1",
+      "pt": 7.5,
+      "bbox": [
+        31.75,
+        234.4375,
+        36.25,
+        244.5625
+      ]
+    },
+    {
+      "text": "B",
+      "pt": 7.5,
+      "bbox": [
+        64.25,
+        234.4375,
+        68.75,
+        244.5625
+      ]
+    },
+    {
+      "text": "x",
+      "pt": 7.5,
+      "bbox": [
+        89.25,
+        234.4375,
+        93.75,
+        244.5625
+      ]
+    },
+    {
+      "text": "u1",
+      "pt": 7.5,
+      "bbox": [
+        113.5,
+        234.4375,
+        122.5,
+        244.5625
+      ]
+    },
+    {
+      "text": "P1",
+      "pt": 7.5,
+      "bbox": [
+        165.0,
+        234.4375,
+        174.0,
+        244.5625
+      ]
+    },
+    {
+      "text": "Assign sample",
+      "pt": 8.5,
+      "bbox": [
+        256.0,
+        195.2625,
+        325.0,
+        206.7375
+      ]
+    },
+    {
+      "text": "then correct cell",
+      "pt": 8.0,
+      "bbox": [
+        257.90625,
+        214.6,
+        323.09375,
+        225.4
+      ]
+    },
+    {
+      "text": "within that sample",
+      "pt": 7.5,
+      "bbox": [
+        255.0,
+        228.9375,
+        326.0,
+        239.0625
+      ]
+    },
+    {
+      "text": "Sample A",
+      "pt": 8.0,
+      "bbox": [
+        396.0,
+        191.6,
+        438.5,
+        202.4
+      ]
+    },
+    {
+      "text": "cell x",
+      "pt": 8.0,
+      "bbox": [
+        441.75,
+        209.6,
+        462.25,
+        220.4
+      ]
+    },
+    {
+      "text": "Sample B",
+      "pt": 8.0,
+      "bbox": [
+        396.0,
+        250.6,
+        438.5,
+        261.4
+      ]
+    },
+    {
+      "text": "cell x",
+      "pt": 8.0,
+      "bbox": [
+        441.75,
+        268.6,
+        462.25,
+        279.4
+      ]
+    },
+    {
+      "text": "Schematic record excerpts; identities remain distinct: A/x \u2260 B/x.",
+      "pt": 8.0,
+      "bbox": [
+        14.0,
+        264.6,
+        268.234375,
+        275.4
+      ]
+    },
+    {
+      "text": "Two-bit-encoded values; schema is not repeated per read. Current example has two barcode levels.",
+      "pt": 7.5,
+      "bbox": [
+        14.0,
+        284.9375,
+        390.4765625,
+        295.0625
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "start": [
+        207,
+        218.5
+      ],
+      "end": [
+        234,
+        214.5
+      ],
+      "vertices": [
+        [
+          207,
+          218.5
+        ],
+        [
+          217.3719814886067,
+          218.5
+        ],
+        [
+          223.6280185113933,
+          214.5
+        ],
+        [
+          234,
+          214.5
+        ]
+      ],
+      "source": "record",
+      "target": "correction",
+      "head": true
+    },
+    {
+      "start": [
+        347,
+        214.5
+      ],
+      "end": [
+        367,
+        225
+      ],
+      "vertices": [
+        [
+          347,
+          214.5
+        ],
+        [
+          355.5837113185382,
+          214.5
+        ],
+        [
+          359.4,
+          221.01
+        ],
+        [
+          367,
+          225
+        ]
+      ],
+      "source": "correction",
+      "target": null,
+      "head": false
+    },
+    {
+      "start": [
+        367,
+        225
+      ],
+      "end": [
+        388,
+        207.5
+      ],
+      "vertices": [
+        [
+          367,
+          225
+        ],
+        [
+          374.98,
+          218.35
+        ],
+        [
+          377.61236793104416,
+          207.5
+        ],
+        [
+          388,
+          207.5
+        ]
+      ],
+      "source": null,
+      "target": "sample-A",
+      "head": true
+    },
+    {
+      "start": [
+        367,
+        225
+      ],
+      "end": [
+        388,
+        266.5
+      ],
+      "vertices": [
+        [
+          367,
+          225
+        ],
+        [
+          374.98,
+          240.77
+        ],
+        [
+          370.32591445081243,
+          266.5
+        ],
+        [
+          388,
+          266.5
+        ]
+      ],
+      "source": null,
+      "target": "sample-B",
+      "head": true
+    }
+  ],
+  "limits": "No obstacle routing, text-shape collision, scientific, or aesthetic certification.",
+  "python": "3.12.3",
+  "matplotlib": "3.11.2",
+  "font_sha256": {
+    "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+    "DejaVuSans-BoldOblique.ttf": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f",
+    "DejaVuSans-Oblique.ttf": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+    "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+    "DejaVuSansDisplay.ttf": "82099dcfba5aa868cdfc27451989525fe3292f737fb3c9e0328ce9cef59652f6",
+    "DejaVuSansMono-Bold.ttf": "baada9a5172fe20886251aff0433fc38461912d5daf07287e7bee56620a8da96",
+    "DejaVuSansMono-BoldOblique.ttf": "a69081c15c76c827e0a27a5a7f5c74b6135c843499955495ffa8c20d3a98288b",
+    "DejaVuSansMono-Oblique.ttf": "28052813f7a709fc89f52d192dc995ef4f0fdc5c3d7b73a49d6849b1916d0cd0",
+    "DejaVuSansMono.ttf": "602ec86b8948cfcd956482fe64f94c36c867770149ef2f791d4613f443bcecb3"
+  },
+  "sha256": {
+    "svg": "e88bd47d84f2f434dbe73ae60b6f6f25825d306bb34300a2949d8e529d3d974b",
+    "pdf": "9b6cd4c5d5381a02da4c183150e668bb4c4dd84b32f86d40a4ed540d0485821e",
+    "png": "9597a1b7dea6996d9895da53b97717fddb372fefaa792740dee91e3c0f4c527e"
+  },
+  "visual_review": "pending; inspect final-size color/grayscale and PDF rasterization"
+}

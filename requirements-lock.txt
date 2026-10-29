@@ -1,0 +1,1 @@
+-r skills/scientific-diagrams/scripts/requirements-lock.txt

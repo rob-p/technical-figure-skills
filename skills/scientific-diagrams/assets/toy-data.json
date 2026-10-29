@@ -1,0 +1,18 @@
+{
+  "schematic": true,
+  "records": [
+    ["A", "x", "P1", "u1"], ["A", "x", "P1", "u1"],
+    ["A", "x", "P1", "u2"], ["A", "x", "P2", "u3"],
+    ["A", "x", "P2", "u3"], ["B", "x", "P1", "u1"],
+    ["B", "x", "P2", "u3"]
+  ],
+  "probe_genes": {"P1": "G", "P2": "G"},
+  "bits": [1, 0, 1, 1, 0, 1, 0, 1],
+  "reject_positions": [0, 1, 3, 5],
+  "pass_positions": [0, 2, 3, 5],
+  "segment_sequence": "TTTACGTACG",
+  "query": "ACGTAC",
+  "segment": 7,
+  "position": 3,
+  "canonical": 1
+}

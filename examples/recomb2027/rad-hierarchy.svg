@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="304pt" viewBox="0 0 504 304" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-labelledby="figure-title figure-description">
+<title id="figure-title">Schema roles preserve nested identities</title>
+<desc id="figure-description">Role metadata in the file prelude defines sample, cell, and UMI fields. Per-read values flow through sample assignment and within-sample correction into distinct A/x and B/x groups. Schematic excerpts, two hierarchy levels.</desc>
+ <title>Schema roles preserve nested identities</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Schema roles preserve nested identities</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>scientific-diagrams</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 304
+L 504 304
+L 504 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="panel-a">
+    <path d="M 19 12
+L 25 12
+Q 30 12 30 17
+L 30 23
+Q 30 28 25 28
+L 19 28
+Q 14 28 14 23
+L 14 17
+Q 14 12 19 12
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #287b89"/>
+   </g>
+   <g id="schema">
+    <path d="M 14 40
+L 364 40
+Q 364 40 364 40
+L 364 120
+Q 364 120 364 120
+L 14 120
+Q 14 120 14 120
+L 14 40
+Q 14 40 14 40
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #ffffff"/>
+   </g>
+   <g id="schema-header-0">
+    <path d="M 17 40
+L 61 40
+Q 64 40 64 43
+L 64 56
+Q 64 59 61 59
+L 17 59
+Q 14 59 14 56
+L 14 43
+Q 14 40 17 40
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #f4f7f9"/>
+   </g>
+   <g id="schema-header-1">
+    <path d="M 68 40
+L 143 40
+Q 146 40 146 43
+L 146 56
+Q 146 59 143 59
+L 68 59
+Q 65 59 65 56
+L 65 43
+Q 65 40 68 40
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #f4f7f9"/>
+   </g>
+   <g id="schema-header-2">
+    <path d="M 150 40
+L 360 40
+Q 363 40 363 43
+L 363 56
+Q 363 59 360 59
+L 150 59
+Q 147 59 147 56
+L 147 43
+Q 147 40 150 40
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #e7f1f6"/>
+   </g>
+   <g id="panel-b">
+    <path d="M 19 153
+L 25 153
+Q 30 153 30 158
+L 30 164
+Q 30 169 25 169
+L 19 169
+Q 14 169 14 164
+L 14 158
+Q 14 153 19 153
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #287b89"/>
+   </g>
+   <g id="record">
+    <path d="M 14 187
+L 207 187
+Q 207 187 207 187
+L 207 250
+Q 207 250 207 250
+L 14 250
+Q 14 250 14 250
+L 14 187
+Q 14 187 14 187
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #ffffff"/>
+   </g>
+   <g id="record-header-0">
+    <path d="M 17 187
+L 50 187
+Q 53 187 53 190
+L 53 204
+Q 53 207 50 207
+L 17 207
+Q 14 207 14 204
+L 14 190
+Q 14 187 17 187
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #f4f7f9"/>
+   </g>
+   <g id="record-header-1">
+    <path d="M 57 187
+L 75 187
+Q 78 187 78 190
+L 78 204
+Q 78 207 75 207
+L 57 207
+Q 54 207 54 204
+L 54 190
+Q 54 187 57 187
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #e7f1f6"/>
+   </g>
+   <g id="record-header-2">
+    <path d="M 82 187
+L 100 187
+Q 103 187 103 190
+L 103 204
+Q 103 207 100 207
+L 82 207
+Q 79 207 79 204
+L 79 190
+Q 79 187 82 187
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #eeeaf7"/>
+   </g>
+   <g id="record-header-3">
+    <path d="M 107 187
+L 128 187
+Q 131 187 131 190
+L 131 204
+Q 131 207 128 207
+L 107 207
+Q 104 207 104 204
+L 104 190
+Q 104 187 107 187
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #fcf0d8"/>
+   </g>
+   <g id="record-header-4">
+    <path d="M 135 187
+L 203 187
+Q 206 187 206 190
+L 206 204
+Q 206 207 203 207
+L 135 207
+Q 132 207 132 204
+L 132 190
+Q 132 187 135 187
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #f4f7f9"/>
+   </g>
+   <g id="correction">
+    <path d="M 240 186
+L 341 186
+Q 347 186 347 192
+L 347 237
+Q 347 243 341 243
+L 240 243
+Q 234 243 234 237
+L 234 192
+Q 234 186 240 186
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #f4f7f9"/>
+   </g>
+   <g id="sample-A">
+    <path d="M 394 186
+L 484 186
+Q 490 186 490 192
+L 490 223
+Q 490 229 484 229
+L 394 229
+Q 388 229 388 223
+L 388 192
+Q 388 186 394 186
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #e7f1f6"/>
+   </g>
+   <g id="cell-A">
+    <path d="M 426 206
+L 478 206
+Q 482 206 482 210
+L 482 220
+Q 482 224 478 224
+L 426 224
+Q 422 224 422 220
+L 422 210
+Q 422 206 426 206
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #eeeaf7"/>
+   </g>
+   <g id="sample-B">
+    <path d="M 394 245
+L 484 245
+Q 490 245 490 251
+L 490 282
+Q 490 288 484 288
+L 394 288
+Q 388 288 388 282
+L 388 251
+Q 388 245 394 245
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #e7f1f6"/>
+   </g>
+   <g id="cell-B">
+    <path d="M 426 265
+L 478 265
+Q 482 265 482 269
+L 482 279
+Q 482 283 478 283
+L 426 283
+Q 422 283 422 279
+L 422 269
+Q 422 265 426 265
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #eeeaf7"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 17 79.5
+L 361 79.5
+" clip-path="url(#pd775a5afb7)" style="fill: none; stroke: #dce5eb; stroke-width: 0.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 17 99.5
+L 361 99.5
+" clip-path="url(#pd775a5afb7)" style="fill: none; stroke: #dce5eb; stroke-width: 0.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 17 119.5
+L 361 119.5
+" clip-path="url(#pd775a5afb7)" style="fill: none; stroke: #dce5eb; stroke-width: 0.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 17 228.5
+L 204 228.5
+" clip-path="url(#pd775a5afb7)" style="fill: none; stroke: #dce5eb; stroke-width: 0.4; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 17 249.5
+L 204 249.5
+" clip-path="url(#pd775a5afb7)" style="fill: none; stroke: #dce5eb; stroke-width: 0.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 367 223.6
+C 367.371284 223.6 367.727412 223.747513 367.989949 224.010051
+C 368.252487 224.272588 368.4 224.628716 368.4 225
+C 368.4 225.371284 368.252487 225.727412 367.989949 225.989949
+C 367.727412 226.252487 367.371284 226.4 367 226.4
+C 366.628716 226.4 366.272588 226.252487 366.010051 225.989949
+C 365.747513 225.727412 365.6 225.371284 365.6 225
+C 365.6 224.628716 365.747513 224.272588 366.010051 224.010051
+C 366.272588 223.747513 366.628716 223.6 367 223.6
+z
+" clip-path="url(#pd775a5afb7)" style="fill: #728695"/>
+   </g>
+   <g id="connector-1">
+    <path d="M 207 218.5
+C 217.371981 218.5 223.628019 214.5 233.105573 214.5
+" style="fill: none; stroke: #728695; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 230.305573 213.1
+L 233.105573 214.5
+L 230.305573 215.9
+z
+" style="fill: #728695; stroke: #728695; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="connector-2">
+    <path d="M 347 214.5
+C 355.583711 214.5 359.4 221.01 367 225
+" style="fill: none; stroke: #728695; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="connector-3">
+    <path d="M 367 225
+C 374.98 218.35 377.612368 207.5 387.105573 207.5
+" style="fill: none; stroke: #728695; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 384.305573 206.1
+L 387.105573 207.5
+L 384.305573 208.9
+z
+" style="fill: #728695; stroke: #728695; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="connector-4">
+    <path d="M 367 225
+C 374.98 240.77 370.325914 266.5 387.105573 266.5
+" style="fill: none; stroke: #728695; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 384.305573 265.1
+L 387.105573 266.5
+L 384.305573 267.9
+z
+" style="fill: #728695; stroke: #728695; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="label-1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="22" y="22.456016" transform="rotate(-0 22 22.456016)">a</text>
+   </g>
+   <g id="label-2">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #243746" x="38" y="22.897344" transform="rotate(-0 38 22.897344)">Declare roles once in the RAD v2 prelude</text>
+   </g>
+   <g id="label-3">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="39.5" y="51.945625" transform="rotate(-0 39.5 51.945625)">tag</text>
+   </g>
+   <g id="label-4">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="106" y="51.945625" transform="rotate(-0 106 51.945625)">type</text>
+   </g>
+   <g id="label-5">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="255.5" y="52.17625" transform="rotate(-0 255.5 52.17625)">role payload</text>
+   </g>
+   <g id="label-6">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="39.5" y="72.9825" transform="rotate(-0 39.5 72.9825)">b0</text>
+   </g>
+   <g id="label-7">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="106" y="72.5975" transform="rotate(-0 106 72.5975)">u32/u64</text>
+   </g>
+   <g id="label-8">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="255.5" y="72.5" transform="rotate(-0 255.5 72.5)">Barcode(level 0, Ls)</text>
+   </g>
+   <g id="label-9">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="39.5" y="92.9825" transform="rotate(-0 39.5 92.9825)">b1</text>
+   </g>
+   <g id="label-10">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="106" y="92.5975" transform="rotate(-0 106 92.5975)">u32/u64</text>
+   </g>
+   <g id="label-11">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="255.5" y="92.5" transform="rotate(-0 255.5 92.5)">Barcode(level 1, Lc)</text>
+   </g>
+   <g id="label-12">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="39.5" y="112.126875" transform="rotate(-0 39.5 112.126875)">u</text>
+   </g>
+   <g id="label-13">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="106" y="112.5975" transform="rotate(-0 106 112.5975)">u32/u64</text>
+   </g>
+   <g id="label-14">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="255.5" y="112.511875" transform="rotate(-0 255.5 112.511875)">Umi(Lu)</text>
+   </g>
+   <g id="label-15">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #243746" x="381" y="62.345469" transform="rotate(-0 381 62.345469)">Level 0: sample</text>
+   </g>
+   <g id="label-16">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #243746" x="381" y="88.168906" transform="rotate(-0 381 88.168906)">Level 1: cell</text>
+   </g>
+   <g id="label-17">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526777" x="14" y="135.981641" transform="rotate(-0 14 135.981641)">Role suffix: code:u8 | payload length:u8 | payload bytes. Ls, Lc, Lu: nucleotide lengths.</text>
+   </g>
+   <g id="label-18">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="22" y="164.355312" transform="rotate(-0 22 164.355312)">b</text>
+   </g>
+   <g id="label-19">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #243746" x="38" y="163.856328" transform="rotate(-0 38 163.856328)">Carry values; correct and group by sample + cell</text>
+   </g>
+   <g id="label-20">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="34" y="199.540234" transform="rotate(-0 34 199.540234)">n align</text>
+   </g>
+   <g id="label-21">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="66.5" y="200.229883" transform="rotate(-0 66.5 200.229883)">S</text>
+   </g>
+   <g id="label-22">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="91.5" y="200.229883" transform="rotate(-0 91.5 200.229883)">C</text>
+   </g>
+   <g id="label-23">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="118" y="200.180664" transform="rotate(-0 118 200.180664)">U</text>
+   </g>
+   <g id="label-24">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="169.5" y="199.540234" transform="rotate(-0 169.5 199.540234)">assignments</text>
+   </g>
+   <g id="label-25">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="34" y="221.233984" transform="rotate(-0 34 221.233984)">1</text>
+   </g>
+   <g id="label-26">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="66.5" y="221.233984" transform="rotate(-0 66.5 221.233984)">A</text>
+   </g>
+   <g id="label-27">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="91.5" y="220.550781" transform="rotate(-0 91.5 220.550781)">x</text>
+   </g>
+   <g id="label-28">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="118" y="221.180664" transform="rotate(-0 118 221.180664)">u1</text>
+   </g>
+   <g id="label-29">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="169.5" y="221.233984" transform="rotate(-0 169.5 221.233984)">P1</text>
+   </g>
+   <g id="label-30">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="34" y="242.233984" transform="rotate(-0 34 242.233984)">1</text>
+   </g>
+   <g id="label-31">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="66.5" y="242.233984" transform="rotate(-0 66.5 242.233984)">B</text>
+   </g>
+   <g id="label-32">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="91.5" y="241.550781" transform="rotate(-0 91.5 241.550781)">x</text>
+   </g>
+   <g id="label-33">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="118" y="242.180664" transform="rotate(-0 118 242.180664)">u1</text>
+   </g>
+   <g id="label-34">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="169.5" y="242.233984" transform="rotate(-0 169.5 242.233984)">P1</text>
+   </g>
+   <g id="label-35">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="290.5" y="203.312266" transform="rotate(-0 290.5 203.312266)">Assign sample</text>
+   </g>
+   <g id="label-36">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="290.5" y="222.9825" transform="rotate(-0 290.5 222.9825)">then correct cell</text>
+   </g>
+   <g id="label-37">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #526777" x="290.5" y="236.069531" transform="rotate(-0 290.5 236.069531)">within that sample</text>
+   </g>
+   <g id="label-38">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #243746" x="396" y="199.2075" transform="rotate(-0 396 199.2075)">Sample A</text>
+   </g>
+   <g id="label-39">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="452" y="217.9825" transform="rotate(-0 452 217.9825)">cell x</text>
+   </g>
+   <g id="label-40">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #243746" x="396" y="258.2075" transform="rotate(-0 396 258.2075)">Sample B</text>
+   </g>
+   <g id="label-41">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #243746" x="452" y="276.9825" transform="rotate(-0 452 276.9825)">cell x</text>
+   </g>
+   <g id="label-42">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526777" x="14" y="272.2075" transform="rotate(-0 14 272.2075)">Schematic record excerpts; identities remain distinct: A/x ≠ B/x.</text>
+   </g>
+   <g id="label-43">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #526777" x="14" y="292.069531" transform="rotate(-0 14 292.069531)">Two-bit-encoded values; schema is not repeated per read. Current example has two barcode levels.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd775a5afb7">
+   <rect x="0" y="0" width="504" height="304"/>
+  </clipPath>
+ </defs>
+</svg>
